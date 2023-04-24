@@ -1,3 +1,4 @@
+const HttpResponse = require('../helpers/http-responses')
 const httpResponse = require('../helpers/http-responses')
 
 module.exports = class LoginRouter {
@@ -20,8 +21,6 @@ module.exports = class LoginRouter {
       return httpResponse.badRequest('password')
     }
     this.authUseCase.auth(email, password)
-    return {
-      statusCode: 401
-    }
+    return HttpResponse.unauthorizedError()
   }
 }
