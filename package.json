@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "standard": {
+    "env": ["jest"]
+  },
   "devDependencies": {
     "eslint": "^8.39.0",
     "husky": "^8.0.0",
@@ -20,5 +23,10 @@
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.8",
     "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "router": "^1.3.8"
   }
 }
