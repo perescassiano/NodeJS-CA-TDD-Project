@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --watchAll --silent --colors --noStackTrace",
     "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace",
-    "prepare": "husky install"
+    "test:ci": "jest --coverage"
   },
   "keywords": [],
   "author": "",
