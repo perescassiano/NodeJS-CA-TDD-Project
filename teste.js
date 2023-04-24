@@ -1,1 +1,1 @@
-function teste(){return{};};
+function teste(){return{a:0};};

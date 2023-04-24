@@ -11,9 +11,9 @@
       "standard"
     ]
   },
-  "husky":{
+  "husky": {
     "hooks": {
-      "pre-commit": ["npx lint-staged"]
+      "pre-commit": "npx lint-staged"
     }
   },
   "keywords": [],
