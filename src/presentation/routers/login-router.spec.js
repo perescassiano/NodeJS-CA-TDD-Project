@@ -60,6 +60,19 @@ describe('Login Router', () => {
     expect(httpResponse.body).toEqual(new MissingParamError('password'))
   })
 
+  //   test('Should return 400 if invalid email provided', async () => {
+  //     const { sut } = makeSut()
+  //     const httpRequest = {
+  //       body: {
+  //         email: 'inv_test@mail.com',
+  //         passwd: 'passwd'
+  //       }
+  //     }
+  //     const httpResponse = await sut.route(httpRequest)
+  //     expect(httpResponse.statusCode).toBe(400)
+  //     expect(httpResponse.body).toEqual(new InvalidParamError('password'))
+  //   })
+
   test('Should return 500 if httpRequest not provided', async () => {
     const { sut } = makeSut()
     const httpResponse = await sut.route()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682364631178" clover="3.2.0">
-  <project timestamp="1682364631178" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="47" coveredelements="47" complexity="0" loc="32" ncloc="32" packages="2" files="5" classes="5"/>
+<coverage generated="1682365105074" clover="3.2.0">
+  <project timestamp="1682365105074" name="All files">
+    <metrics statements="33" coveredstatements="33" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="48" coveredelements="48" complexity="0" loc="33" ncloc="33" packages="2" files="5" classes="5"/>
     <package name="helpers">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="http-responses.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\helpers\http-responses.js">
@@ -35,24 +35,25 @@
       </file>
     </package>
     <package name="routers">
-      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="login-router.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\routers\login-router.js">
-        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
         <line num="11" count="10" type="stmt"/>
-        <line num="13" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="17" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="20" count="6" type="stmt"/>
-        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="26" count="5" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="14" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
       </file>
     </package>
   </project>
