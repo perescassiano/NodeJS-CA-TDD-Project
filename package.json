@@ -7,7 +7,8 @@
     "node": " >=18.x"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
+    "test:staged": "jest",
     "prepare": "husky install"
   },
   "keywords": [],

@@ -4,8 +4,9 @@
         "eslint"
     ],
     "*.js": [
-        "prettier --write",
-        "eslint"
+        "standard --fix",
+        "npm run test:staged",
+        "git add"
     ],
     "*.html": [
         "prettier --write"
