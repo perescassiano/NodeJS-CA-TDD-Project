@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682436675560" clover="3.2.0">
-  <project timestamp="1682436675560" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2" elements="27" coveredelements="27" complexity="0" loc="17" ncloc="17" packages="2" files="2" classes="2"/>
+<coverage generated="1682437325625" clover="3.2.0">
+  <project timestamp="1682437325625" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2" elements="29" coveredelements="29" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2"/>
     <package name="domain.usecases">
-      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\domain\usecases\auth-usecase.js">
-        <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="6" count="8" type="stmt"/>
-        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="16" count="6" type="stmt"/>
-        <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="11" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
       </file>
     </package>
     <package name="utils.errors">
