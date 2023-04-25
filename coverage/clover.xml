@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682448517492" clover="3.2.0">
-  <project timestamp="1682448517492" name="All files">
+<coverage generated="1682448743563" clover="3.2.0">
+  <project timestamp="1682448743563" name="All files">
     <metrics statements="20" coveredstatements="20" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2" elements="31" coveredelements="31" complexity="0" loc="20" ncloc="20" packages="2" files="2" classes="2"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
@@ -8,19 +8,19 @@
         <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="22" type="stmt"/>
-        <line num="6" count="22" type="stmt"/>
-        <line num="7" count="22" type="stmt"/>
-        <line num="8" count="22" type="stmt"/>
-        <line num="12" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="23" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="8" count="23" type="stmt"/>
+        <line num="12" count="23" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="15" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="22" type="cond" truecount="2" falsecount="0"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="19" count="20" type="stmt"/>
-        <line num="20" count="16" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="13" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="11" type="stmt"/>
-        <line num="23" count="7" type="stmt"/>
+        <line num="19" count="21" type="stmt"/>
+        <line num="20" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
         <line num="24" count="5" type="stmt"/>
         <line num="26" count="2" type="stmt"/>
       </file>
