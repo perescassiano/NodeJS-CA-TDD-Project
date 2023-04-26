@@ -30,7 +30,7 @@ describe('LoadUserByEmail Repository', () => {
     expect(user).toBeNull()
   })
 
-  test('Should return user if  user is found', async () => {
+  test('Should throw if no userModel provided', async () => {
     const { sut, userModel } = makeSut()
 
     const fakeUser = {
@@ -48,5 +48,10 @@ describe('LoadUserByEmail Repository', () => {
       _id: fakeUser._id,
       password: fakeUser.password
     })
+  })
+  test('Should return user if  user is found', async () => {
+    const sut = new LoadUserByEmailRepository()
+    const promise = sut.load('test@email.com')
+    expect(promise).rejects.toThrow()
   })
 })
