@@ -7,11 +7,11 @@
     "node": " >=18.x"
   },
   "scripts": {
-    "test": "jest --silent --colors --noStackTrace --passWithNoTests",
-    "test:unit": "npm test -- --watchAll -c jest-unit-config.js",
+    "test": "jest --colors --noStackTrace --passWithNoTests",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-unit-config.js",
     "test:staged": "npm test --  --findRelatedTests",
-    "test:ci": "npm test -- --coverage "
+    "test:ci": "npm test -- --coverage --silent"
   },
   "keywords": [],
   "author": "",

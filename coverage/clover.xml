@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682515349404" clover="3.2.0">
-  <project timestamp="1682515349405" name="All files">
-    <metrics statements="97" coveredstatements="96" conditionals="29" coveredconditionals="28" methods="21" coveredmethods="21" elements="147" coveredelements="145" complexity="0" loc="97" ncloc="97" packages="8" files="14" classes="14"/>
+<coverage generated="1682516345357" clover="3.2.0">
+  <project timestamp="1682516345357" name="All files">
+    <metrics statements="100" coveredstatements="99" conditionals="31" coveredconditionals="30" methods="21" coveredmethods="21" elements="152" coveredelements="150" complexity="0" loc="100" ncloc="100" packages="8" files="14" classes="14"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\domain\usecases\auth-usecase.js">
@@ -42,13 +42,16 @@
       </file>
     </package>
     <package name="infra.repositories">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="load-user-by-email-repository.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\infra\repositories\load-user-by-email-repository.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
       </file>
     </package>
     <package name="presentation.errors">
@@ -124,9 +127,9 @@
       </file>
       <file name="missing-param-error.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\utils\errors\missing-param-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="3" count="18" type="stmt"/>
-        <line num="4" count="18" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
       </file>
     </package>
     <package name="utils.helpers">
