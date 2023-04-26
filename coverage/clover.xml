@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682530230434" clover="3.2.0">
-  <project timestamp="1682530230434" name="All files">
-    <metrics statements="102" coveredstatements="102" conditionals="33" coveredconditionals="33" methods="21" coveredmethods="21" elements="156" coveredelements="156" complexity="0" loc="102" ncloc="102" packages="8" files="14" classes="14"/>
+<coverage generated="1682530413318" clover="3.2.0">
+  <project timestamp="1682530413318" name="All files">
+    <metrics statements="110" coveredstatements="110" conditionals="37" coveredconditionals="37" methods="23" coveredmethods="23" elements="170" coveredelements="170" complexity="0" loc="110" ncloc="110" packages="8" files="15" classes="15"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\domain\usecases\auth-usecase.js">
@@ -44,7 +44,7 @@
       </file>
     </package>
     <package name="infra.repositories">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
       <file name="load-user-by-email-repository.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\infra\repositories\load-user-by-email-repository.js">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -54,6 +54,17 @@
         <line num="10" count="1" type="stmt"/>
         <line num="13" count="3" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="update-access-token-repository.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\infra\repositories\update-access-token-repository.js">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
     </package>
     <package name="presentation.errors">
