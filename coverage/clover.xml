@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682594509891" clover="3.2.0">
-  <project timestamp="1682594509891" name="All files">
-    <metrics statements="126" coveredstatements="124" conditionals="37" coveredconditionals="37" methods="26" coveredmethods="25" elements="189" coveredelements="186" complexity="0" loc="126" ncloc="126" packages="11" files="19" classes="19"/>
+<coverage generated="1682599536887" clover="3.2.0">
+  <project timestamp="1682599536888" name="All files">
+    <metrics statements="128" coveredstatements="126" conditionals="37" coveredconditionals="37" methods="26" coveredmethods="25" elements="191" coveredelements="188" complexity="0" loc="128" ncloc="128" packages="11" files="19" classes="19"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\domain\usecases\auth-usecase.js">
@@ -76,32 +76,34 @@
       </file>
     </package>
     <package name="main.config">
-      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="app.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\config\app.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
       </file>
       <file name="setup.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\config\setup.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
       </file>
     </package>
     <package name="main.middlewares">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="cors.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\middlewares\cors.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
       </file>
     </package>
     <package name="presentation.errors">
