@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682602492378" clover="3.2.0">
-  <project timestamp="1682602492378" name="All files">
-    <metrics statements="135" coveredstatements="133" conditionals="37" coveredconditionals="37" methods="27" coveredmethods="26" elements="199" coveredelements="196" complexity="0" loc="135" ncloc="135" packages="11" files="21" classes="21"/>
+<coverage generated="1682603643533" clover="3.2.0">
+  <project timestamp="1682603643533" name="All files">
+    <metrics statements="133" coveredstatements="133" conditionals="37" coveredconditionals="37" methods="26" coveredmethods="26" elements="196" coveredelements="196" complexity="0" loc="133" ncloc="133" packages="10" files="20" classes="20"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\domain\usecases\auth-usecase.js">
@@ -65,14 +65,6 @@
         <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="main">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\index.js">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
       </file>
     </package>
     <package name="main.config">
