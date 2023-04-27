@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682619197252" clover="3.2.0">
-  <project timestamp="1682619197252" name="All files">
+<coverage generated="1682619541394" clover="3.2.0">
+  <project timestamp="1682619541394" name="All files">
     <metrics statements="142" coveredstatements="141" conditionals="40" coveredconditionals="38" methods="29" coveredmethods="29" elements="211" coveredelements="208" complexity="0" loc="142" ncloc="142" packages="11" files="23" classes="23"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
@@ -143,8 +143,8 @@
       <file name="server-error.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\errors\server-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="16" type="stmt"/>
-        <line num="4" count="16" type="stmt"/>
+        <line num="3" count="18" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
       </file>
       <file name="unauthorized-error.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\errors\unauthorized-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
