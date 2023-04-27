@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682603643533" clover="3.2.0">
-  <project timestamp="1682603643533" name="All files">
-    <metrics statements="133" coveredstatements="133" conditionals="37" coveredconditionals="37" methods="26" coveredmethods="26" elements="196" coveredelements="196" complexity="0" loc="133" ncloc="133" packages="10" files="20" classes="20"/>
+<coverage generated="1682619197252" clover="3.2.0">
+  <project timestamp="1682619197252" name="All files">
+    <metrics statements="142" coveredstatements="141" conditionals="40" coveredconditionals="38" methods="29" coveredmethods="29" elements="211" coveredelements="208" complexity="0" loc="142" ncloc="142" packages="11" files="23" classes="23"/>
     <package name="domain.usecases">
       <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\domain\usecases\auth-usecase.js">
@@ -68,14 +68,28 @@
       </file>
     </package>
     <package name="main.config">
-      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="21" coveredstatements="20" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="app.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\config\app.js">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+      <file name="env.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\config\env.js">
+        <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="routes.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\config\routes.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="5" type="stmt"/>
         <line num="2" count="5" type="stmt"/>
         <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
         <line num="6" count="5" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
       </file>
       <file name="setup.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\config\setup.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -111,6 +125,13 @@
         <line num="3" count="5" type="stmt"/>
       </file>
     </package>
+    <package name="main.routes">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="login-routes.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\main\routes\login-routes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+      </file>
+    </package>
     <package name="presentation.errors">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\errors\index.js">
@@ -122,8 +143,8 @@
       <file name="server-error.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\errors\server-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="14" type="stmt"/>
-        <line num="4" count="14" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
       </file>
       <file name="unauthorized-error.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\errors\unauthorized-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -139,25 +160,25 @@
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
-        <line num="12" count="8" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
       </file>
     </package>
     <package name="presentation.routers">
-      <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="18" coveredstatements="18" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="login-router.js" path="E:\cassiano\Documents\Studying Program\NodeJS-CA-TDD-Project\src\presentation\routers\login-router.js">
-        <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="18" coveredstatements="18" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="6" count="15" type="stmt"/>
-        <line num="7" count="15" type="stmt"/>
-        <line num="11" count="15" type="stmt"/>
-        <line num="12" count="15" type="stmt"/>
-        <line num="14" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="14" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="18" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="13" type="cond" truecount="2" falsecount="0"/>
         <line num="19" count="1" type="stmt"/>
         <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="23" count="1" type="stmt"/>
@@ -165,7 +186,7 @@
         <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
-        <line num="31" count="8" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
       </file>
     </package>
     <package name="utils.errors">
