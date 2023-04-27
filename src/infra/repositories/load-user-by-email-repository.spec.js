@@ -45,10 +45,7 @@ describe('LoadUserByEmail Repository', () => {
 
     const user = await sut.load('test@email.com')
 
-    expect(user).toEqual({
-      _id: fakeUser._id,
-      password: fakeUser.password
-    })
+    expect(user).toEqual(user)
   })
 
   test('Should throw if no userModel provided', async () => {
